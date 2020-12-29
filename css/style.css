@@ -194,7 +194,8 @@ textarea.input {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-size: cover;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 
 body.ie ._ibg {
